@@ -1,0 +1,41 @@
+# Teamspeak Moderator Bot: BITCHIN BETTY
+# Written by Ian Cowan
+
+# Host name to connect to teamspeak (i.e. ts.yourdomain.com)
+HOST_NAME=ts.ztlartcc.org
+
+# Servery query username
+SERVER_QUERY_USERNAME=serveradmin
+
+# Servery query password
+SERVER_QUERY_PASSWORD=123456Password
+
+# Number of the virtual server you want the bot on
+VIRTUAL_SERVER=1
+
+# Bot Name
+BOT_NAME=BITCHIN BETTY
+
+# Max Idle Time Before Moving in Minutes
+MAX_IDLE_TIME_MOVE=60
+
+# Away Channel Number
+AWAY_CHANNEL=21
+
+# Max Idle Time Before Warning
+IDLE_TIME_WARN=55
+
+# Max Idle Time Before Kicking
+IDLE_TIME_KICK=720
+
+# Server Groups to Ignore (separate with a comma)
+IGNORE_GROUP=6,34,35,116
+
+# Kick or Move for recording? K => Kick, M => Move, Blank => Neither
+RECORDING=M
+
+# Move for muting input? Y => yes, N => no
+MUTE_INPUT=N
+
+# Move for muting output? Y => yes, N => no
+MUTE_OUTPUT=Y
