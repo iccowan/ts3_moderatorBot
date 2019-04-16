@@ -41,6 +41,10 @@ Group=ts # Update with the appropiate group
 [Install]
 WantedBy=multi-user.target
 ```
+3. Close out of the file and save it
+4. Run the command `systemctl start ts3Bot` to start the bot
+    - To stop the bot, you can use `systemctl stop ts3Bot`
+5. Enable the service so it will begin running on startup withe the command `systemctl enable ts3Bot`
 
 Troubleshooting
 ---------------
